@@ -2,15 +2,6 @@
 
 // 0,1, 1, 2, 3, 5, 8, 13
 
-// let numOfTerms = 8;
-// for(let i = 0; i < numOfTerms; i++ ){
-//     if(i == 0 || i == 1 || i == 2){
-//         console.log(1)
-//     } else {
-//         let sum = (i - 1) + (i - 2);
-//         console.log(sum);
-//     }
-// }
 
 // Approach 1
 let first = 0;
