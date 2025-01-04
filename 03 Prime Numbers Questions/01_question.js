@@ -41,6 +41,5 @@ const checkPrime = (num) => {
 for(let i = 1; i <= 50; i++){
     if(checkPrime(i)){
         console.log(i);
-        
     }
 }
