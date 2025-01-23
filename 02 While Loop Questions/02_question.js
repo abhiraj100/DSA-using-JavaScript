@@ -10,3 +10,15 @@ while(i <= num){
 }
 
 console.log(fact);
+
+
+// 
+let n = 5;
+let result = 1
+
+let i = 2;
+while(i <= n){
+    result *= i;
+    i++
+}
+console.log(result)

@@ -19,3 +19,28 @@ for(let i = 1; i <= num; i++){
 }
 
 console.log(result)
+
+
+// recursive way
+
+function fact(num){
+    if(num == 1 || num == 0)
+    { 
+        return 1;
+    } else {
+        
+    return num * fact(num - 1);
+    }
+}
+
+console.log(fact(5));
+
+
+// third way
+
+function fact(num){
+    if(num == 1 || num == 0) return 1;
+    return num * fact(num -1)
+}
+
+console.log(fact(5));
