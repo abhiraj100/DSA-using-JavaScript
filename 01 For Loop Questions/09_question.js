@@ -50,3 +50,8 @@ let arr = [1, 3, 15, 24, 12, 10, 19];
 let max = arr.reduce((acc, curr) => curr > acc ? curr: acc, -Infinity)
 console.log(max)
 
+
+// 
+let max = arr.length > 0 ? Math.max(...arr) : null;
+console.log(max); // ✅ Output: null
+

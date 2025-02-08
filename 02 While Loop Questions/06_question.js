@@ -77,6 +77,13 @@ console.log(rev);
 // console.log(text);
 
 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let text = fruits.join();  // Banana,Orange,Apple,Mango
+// let text = fruits.join("");  // BananaOrangeAppleMango
+// let text = fruits.join(",");  // Banana,Orange,Apple,Mango  
+console.log(text);
+
+
 
 
 

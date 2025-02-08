@@ -8,3 +8,16 @@ for(let i = 1; i <= n; i++){
 }
 
 console.log(result);
+
+
+
+// Another Approach
+
+let m = 10;
+let sum = (m*(m+1)*(2*m + 1))/(6);
+console.log(sum)
+
+
+// ✅ Time Complexity: O(1) (Constant time)
+// ✅ Space Complexity: O(1) (No extra memory used)
+// ✅ Best for large values of n
